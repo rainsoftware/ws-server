@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const port = process.env.PORT || 8080;  // Use Railway's provided PORT
+const port = process.env.PORT || 8080;
 
 const wss = new WebSocket.Server({ port });
 
